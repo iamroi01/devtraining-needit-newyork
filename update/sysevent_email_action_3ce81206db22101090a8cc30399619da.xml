@@ -44,7 +44,8 @@
 <p>&nbsp;</p>
 <p>${mail_script:CountOverdueNeedItTasksAssignedTo}</p>
 <p>&nbsp;</p>
-<p><strong>Click here to view the NeedIt Task record: ${URI_REF}. </strong></p>]]></message_html>
+<p><strong>Click here to view the NeedIt Task record: ${URI_REF}.</strong></p>
+<p><strong>Click here to close the NeedIt Task Record: ${mailto:mailto.closeneedittask} </strong></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -53,7 +54,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>roi.jason.bonifacio@pwc.com</recipient_users>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -66,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ce81206db22101090a8cc30399619da</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -74,7 +75,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_3ce81206db22101090a8cc30399619da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-13 05:35:56</sys_updated_on>
+        <sys_updated_on>2020-08-16 03:16:16</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
